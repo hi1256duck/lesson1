@@ -16,11 +16,19 @@ print(houseNo)
 print(country)
 print(streetName)   
 
-CoolTuple=["Anthony",27,"black",61,5,5,0,["roblox","1minecraft","fortnite"]]
+CoolTuple=("Anthony",27,"black",61,5.5,["roblox","1minecraft","fortnite"])
 print(CoolTuple)
 name,age,colour,weight,height,game=CoolTuple
 print(game)
-print(game[5][0])
+print(CoolTuple[5][0])
 
-letters=["a","b","c","d","e"]
+letters=("a","b","c","d","e")
 print(letters[0:3])
+
+#report card tuple
+#add name , score of english,math,geography
+subject=("anthony",99,100,89)
+print(subject)
+name,english,math,geography=subject
+print(math)
+print(subject[0])
